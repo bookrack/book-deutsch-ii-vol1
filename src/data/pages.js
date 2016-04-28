@@ -76,6 +76,100 @@ module.exports = function() {
         }
       ]
     },
+    '08': {
+      exercise: [
+        {
+          type: 'typer',
+          title: 'Ergänze!',
+          image: 'pg08ex5',
+          trigger: {
+            button: {
+              top: '11%'
+            },
+            zone: {
+              top: '11%',
+              bottom: '4%'
+            }
+          },
+          help: {
+            toggle: false,
+            text: 'Scrie sub numele culorii partile corpului corespunzatoare. Cand ai terminat apasa pe cheita si verifica. Succes!'
+          },
+          data: [
+            {
+              identifier: 'one',
+              position: {
+                top: '25.5%',
+                left: '56%',
+                width: '19%'
+              },
+              model: '',
+              solution: 'Augen'
+            },
+            {
+              identifier: 'two',
+              position: {
+                top: '14.5%',
+                left: '48%',
+                width: '19%'
+              },
+              model: '',
+              solution: 'Haare'
+            },
+            {
+              identifier: 'three',
+              position: {
+                top: '61%',
+                left: '33%',
+                width: '19%'
+              },
+              model: '',
+              solution: 'Beine'
+            },
+            {
+              identifier: 'four',
+              position: {
+                top: '37.5%',
+                left: '69%',
+                width: '19%'
+              },
+              model: '',
+              solution: 'Hand'
+            },
+            {
+              identifier: 'five',
+              position: {
+                top: '34%',
+                left: '12%',
+                width: '19%'
+              },
+              model: '',
+              solution: 'Hand'
+            },
+            {
+              identifier: 'six',
+              position: {
+                top: '70.5%',
+                left: '73%',
+                width: '19%'
+              },
+              model: '',
+              solution: 'Füße'
+            },
+            {
+              identifier: 'seven',
+              position: {
+                top: '50%',
+                left: '22%',
+                width: '19%'
+              },
+              model: '',
+              solution: 'Arme'
+            }
+          ]
+        }
+      ]
+    },
     '09': {
       video: [
         {
@@ -255,6 +349,68 @@ module.exports = function() {
       ]
     },
     '15': {
+      exercise: [
+        {
+          type: 'typer',
+          title: 'Antworte!',
+          image: 'pg15ex2',
+          trigger: {
+            button: {
+              top: '79%'
+            },
+            zone: {
+              top: '79%',
+              bottom: '1%'
+            }
+          },
+          help: {
+            toggle: false,
+            text: 'Priveste imaginile si raspunde la intrebari. Cand ai terminat apasa pe cheita si verifica. Succes!'
+          },
+          data: [
+            {
+              identifier: 'one',
+              position: {
+                top: '43.8%',
+                left: '44%',
+                width: '47%'
+              },
+              model: '',
+              solution: 'Badezimmer'
+            },
+            {
+              identifier: 'two',
+              position: {
+                top: '47.3%',
+                left: '44%',
+                width: '47%'
+              },
+              model: '',
+              solution: 'Wohnzimmer'
+            },
+            {
+              identifier: 'three',
+              position: {
+                top: '50.6%',
+                left: '44%',
+                width: '47%'
+              },
+              model: '',
+              solution: 'Schlafzimmer'
+            },
+            {
+              identifier: 'four',
+              position: {
+                top: '54%',
+                left: '47%',
+                width: '44%'
+              },
+              model: '',
+              solution: 'Küche'
+            }
+          ]
+        }
+      ],
       video: [
         {
           video: {
@@ -471,6 +627,190 @@ module.exports = function() {
               bottom: '48%'
             }
           }
+        }
+      ],
+      exercise: [
+        {
+          type: 'checker',
+          title: 'Lies und kreuze an!',
+          image: 'pg24ex3',
+          trigger: {
+            button: {
+              top: '53%'
+            },
+            zone: {
+              top: '53%',
+              bottom: '5%'
+            }
+          },
+          help: {
+            toggle: false,
+            text: 'Citeste si bifeaza. Cand ai terminat apasa pe cheita si verifica. Succes!'
+          },
+          data: [
+            {
+              identifier: 'one',
+              model: '',
+              position: {
+                top: '49.9%',
+                left: '27.7%',
+                width: '7%',
+                height: '1.3%'
+              },
+              answerFalse: {
+                top: '13%',
+                left: '2%'
+              },
+              answerTrue: {
+                top: '13%',
+                left: '78%'
+              }
+            },
+            {
+              identifier: 'two',
+              model: '',
+              position: {
+                top: '49.9%',
+                left: '39.7%',
+                width: '7%',
+                height: '1.3%'
+              },
+              answerTrue: {
+                top: '13%',
+                left: '2%'
+              },
+              answerFalse: {
+                top: '13%',
+                left: '78%'
+              }
+            },
+            {
+              identifier: 'three',
+              model: '',
+              position: {
+                top: '49.9%',
+                left: '51.2%',
+                width: '7%',
+                height: '1.3%'
+              },
+              answerTrue: {
+                top: '13%',
+                left: '2%'
+              },
+              answerFalse: {
+                top: '13%',
+                left: '78%'
+              }
+            },
+            {
+              identifier: 'four',
+              model: '',
+              position: {
+                top: '57.7%',
+                left: '27.7%',
+                width: '7%',
+                height: '1.3%'
+              },
+              answerTrue: {
+                top: '13%',
+                left: '2%'
+              },
+              answerFalse: {
+                top: '13%',
+                left: '78%'
+              }
+            },
+            {
+              identifier: 'five',
+              model: '',
+              position: {
+                top: '57.7%',
+                left: '39.7%',
+                width: '7%',
+                height: '1.3%'
+              },
+              answerFalse: {
+                top: '13%',
+                left: '2%'
+              },
+              answerTrue: {
+                top: '13%',
+                left: '78%'
+              }
+            },
+            {
+              identifier: 'six',
+              model: '',
+              position: {
+                top: '57.7%',
+                left: '51.2%',
+                width: '7%',
+                height: '1.3%'
+              },
+              answerTrue: {
+                top: '13%',
+                left: '2%'
+              },
+              answerFalse: {
+                top: '13%',
+                left: '78%'
+              }
+            },
+            {
+              identifier: 'seven',
+              model: '',
+              position: {
+                top: '65.7%',
+                left: '27.7%',
+                width: '7%',
+                height: '1.3%'
+              },
+              answerTrue: {
+                top: '13%',
+                left: '2%'
+              },
+              answerFalse: {
+                top: '13%',
+                left: '78%'
+              }
+            },
+            {
+              identifier: 'eight',
+              model: '',
+              position: {
+                top: '65.7%',
+                left: '39.7%',
+                width: '7%',
+                height: '1.3%'
+              },
+              answerFalse: {
+                top: '13%',
+                left: '2%'
+              },
+              answerTrue: {
+                top: '13%',
+                left: '78%'
+              }
+            },
+            {
+              identifier: 'nine',
+              model: '',
+              position: {
+                top: '65.7%',
+                left: '51.2%',
+                width: '7%',
+                height: '1.3%'
+              },
+              answerFalse: {
+                top: '13%',
+                left: '2%'
+              },
+              answerTrue: {
+                top: '13%',
+                left: '78%'
+              }
+            }
+          ]
         }
       ]
     },
@@ -752,6 +1092,108 @@ module.exports = function() {
             }
           }
         }
+      ],
+      exercise: [
+        {
+          type: 'typer',
+          title: 'Zähl und schreib die Zahl!',
+          image: 'pg32ex7',
+          trigger: {
+            button: {
+              top: '37%'
+            },
+            zone: {
+              top: '37%',
+              bottom: '31%'
+            }
+          },
+          help: {
+            toggle: false,
+            text: 'Numara si scrie numarul. Cand ai terminat apasa pe cheita si verifica. Succes!'
+          },
+          data: [
+            {
+              identifier: 'one',
+              position: {
+                top: '38%',
+                left: '28%',
+                width: '17%'
+              },
+              model: '',
+              solution: '16'
+            },
+            {
+              identifier: 'two',
+              position: {
+                top: '40.6%',
+                left: '33%',
+                width: '17%'
+              },
+              model: '',
+              solution: '3'
+            },
+            {
+              identifier: 'three',
+              position: {
+                top: '43%',
+                left: '29%',
+                width: '17%'
+              },
+              model: '',
+              solution: '10'
+            },
+            {
+              identifier: 'four',
+              position: {
+                top: '45.7%',
+                left: '28%',
+                width: '17%'
+              },
+              model: '',
+              solution: '4'
+            },
+            {
+              identifier: 'five',
+              position: {
+                top: '51.8%',
+                left: '62%',
+                width: '17%'
+              },
+              model: '',
+              solution: '20'
+            },
+            {
+              identifier: 'six',
+              position: {
+                top: '54.3%',
+                left: '67%',
+                width: '17%'
+              },
+              model: '',
+              solution: '6'
+            },
+            {
+              identifier: 'seven',
+              position: {
+                top: '56.8%',
+                left: '63%',
+                width: '17%'
+              },
+              model: '',
+              solution: '12'
+            },
+            {
+              identifier: 'eight',
+              position: {
+                top: '59.4%',
+                left: '62.5%',
+                width: '17%'
+              },
+              model: '',
+              solution: '4'
+            }
+          ]
+        }
       ]
     },
     '33': {
@@ -769,6 +1211,360 @@ module.exports = function() {
               bottom: '34%'
             }
           }
+        }
+      ]
+    },
+    '34': {
+      exercise: [
+        {
+          type: 'type',
+          title: 'Schreib die Zahlen und lies laut!',
+          image: 'pg34ex3',
+          trigger: {
+            button: {
+              top: '10%'
+            },
+            zone: {
+              top: '10%',
+              bottom: '46%'
+            }
+          },
+          help: {
+            toggle: false,
+            text: 'Scrie numerele si citeste-le. Cand ai terminat apasa pe cheita si verifica. Succes!'
+          },
+          data: [
+            {
+              identifier: 'one',
+              position: {
+                top: '34.7%',
+                left: '15.8%',
+                width: '7%',
+                height: '3%'
+              },
+              model: '',
+              solution: '11'
+            },
+            {
+              identifier: 'two',
+              position: {
+                top: '34.7%',
+                left: '27.8%',
+                width: '7%',
+                height: '3%'
+              },
+              model: '',
+              solution: '3'
+            },
+            {
+              identifier: 'three',
+              position: {
+                top: '34.7%',
+                left: '38.5%',
+                width: '7%',
+                height: '3%'
+              },
+              model: '',
+              solution: '14'
+            },
+            {
+              identifier: 'four',
+              position: {
+                top: '42.2%',
+                left: '15.8%',
+                width: '7%',
+                height: '3%'
+              },
+              model: '',
+              solution: '19'
+            },
+            {
+              identifier: 'five',
+              position: {
+                top: '42.2%',
+                left: '27.8%',
+                width: '7%',
+                height: '3%'
+              },
+              model: '',
+              solution: '10'
+            },
+            {
+              identifier: 'six',
+              position: {
+                top: '42.2%',
+                left: '38.5%',
+                width: '7%',
+                height: '3%'
+              },
+              model: '',
+              solution: '9'
+            },
+            {
+              identifier: 'seven',
+              position: {
+                top: '49.9%',
+                left: '15.8%',
+                width: '7%',
+                height: '3%'
+              },
+              model: '',
+              solution: '9'
+            },
+            {
+              identifier: 'eight',
+              position: {
+                top: '49.9%',
+                left: '27.8%',
+                width: '7%',
+                height: '3%'
+              },
+              model: '',
+              solution: '7'
+            },
+            {
+              identifier: 'nine',
+              position: {
+                top: '49.9%',
+                left: '38.5%',
+                width: '7%',
+                height: '3%'
+              },
+              model: '',
+              solution: '16'
+            },
+            {
+              identifier: 'ten',
+              position: {
+                top: '57.4%',
+                left: '15.8%',
+                width: '7%',
+                height: '3%'
+              },
+              model: '',
+              solution: '15'
+            },
+            {
+              identifier: 'eleven',
+              position: {
+                top: '57.4%',
+                left: '27.8%',
+                width: '7%',
+                height: '3%'
+              },
+              model: '',
+              solution: '1'
+            },
+            {
+              identifier: 'twelve',
+              position: {
+                top: '57.4%',
+                left: '38.5%',
+                width: '7%',
+                height: '3%'
+              },
+              model: '',
+              solution: '16'
+            },
+            {
+              identifier: 'thirteen',
+              position: {
+                top: '64.9%',
+                left: '15.8%',
+                width: '7%',
+                height: '3%'
+              },
+              model: '',
+              solution: '16'
+            },
+            {
+              identifier: 'fourteen',
+              position: {
+                top: '64.9%',
+                left: '27.8%',
+                width: '7%',
+                height: '3%'
+              },
+              model: '',
+              solution: '12'
+            },
+            {
+              identifier: 'fifteen',
+              position: {
+                top: '64.9%',
+                left: '38.5%',
+                width: '7%',
+                height: '3%'
+              },
+              model: '',
+              solution: '14'
+            },
+            {
+              identifier: 'sixteen',
+              position: {
+                top: '34.7%',
+                left: '54.3%',
+                width: '7%',
+                height: '3%'
+              },
+              model: '',
+              solution: '13'
+            },
+            {
+              identifier: 'seventeen',
+              position: {
+                top: '34.7%',
+                left: '66.3%',
+                width: '7%',
+                height: '3%'
+              },
+              model: '',
+              solution: '8'
+            },
+            {
+              identifier: 'eighteen',
+              position: {
+                top: '34.7%',
+                left: '77.2%',
+                width: '7%',
+                height: '3%'
+              },
+              model: '',
+              solution: '5'
+            },
+            {
+              identifier: 'nineteen',
+              position: {
+                top: '42.2%',
+                left: '54.3%',
+                width: '7%',
+                height: '3%'
+              },
+              model: '',
+              solution: '18'
+            },
+            {
+              identifier: 'twenty',
+              position: {
+                top: '42.2%',
+                left: '66.3%',
+                width: '7%',
+                height: '3%'
+              },
+              model: '',
+              solution: '2'
+            },
+            {
+              identifier: 'twentyone',
+              position: {
+                top: '42.2%',
+                left: '77.2%',
+                width: '7%',
+                height: '3%'
+              },
+              model: '',
+              solution: '20'
+            },
+            {
+              identifier: 'twentytwo',
+              position: {
+                top: '49.9%',
+                left: '54.3%',
+                width: '7%',
+                height: '3%'
+              },
+              model: '',
+              solution: '17'
+            },
+            {
+              identifier: 'twentythree',
+              position: {
+                top: '49.9%',
+                left: '66.3%',
+                width: '7%',
+                height: '3%'
+              },
+              model: '',
+              solution: '5'
+            },
+            {
+              identifier: 'twentyfour',
+              position: {
+                top: '49.9%',
+                left: '77.2%',
+                width: '7%',
+                height: '3%'
+              },
+              model: '',
+              solution: '12'
+            },
+            {
+              identifier: 'twentyfive',
+              position: {
+                top: '57.4%',
+                left: '54.3%',
+                width: '7%',
+                height: '3%'
+              },
+              model: '',
+              solution: '14'
+            },
+            {
+              identifier: 'twentysix',
+              position: {
+                top: '57.4%',
+                left: '66.3%',
+                width: '7%',
+                height: '3%'
+              },
+              model: '',
+              solution: '2'
+            },
+            {
+              identifier: 'twentyseven',
+              position: {
+                top: '57.4%',
+                left: '77.2%',
+                width: '7%',
+                height: '3%'
+              },
+              model: '',
+              solution: '12'
+            },
+            {
+              identifier: 'twentyeight',
+              position: {
+                top: '64.9%',
+                left: '54.3%',
+                width: '7%',
+                height: '3%'
+              },
+              model: '',
+              solution: '6'
+            },
+            {
+              identifier: 'twentynine',
+              position: {
+                top: '64.9%',
+                left: '66.3%',
+                width: '7%',
+                height: '3%'
+              },
+              model: '',
+              solution: '4'
+            },
+            {
+              identifier: 'thirty',
+              position: {
+                top: '64.9%',
+                left: '77.2%',
+                width: '7%',
+                height: '3%'
+              },
+              model: '',
+              solution: '10'
+            }
+          ]
         }
       ]
     },
@@ -1112,6 +1908,432 @@ module.exports = function() {
         }
       ]
     },
+    '44': {
+      exercise: [
+        {
+          type: 'checker',
+          title: 'Lies und kreuze Richtig oder Falsch an! Schreib den richtigen Satz!',
+          image: 'pg44ex2',
+          trigger: {
+            button: {
+              top: '14%'
+            },
+            zone: {
+              top: '14%',
+              bottom: '13%'
+            }
+          },
+          help: {
+            toggle: false,
+            text: 'Citeste si bifeaza corect (R) sau gresit(F). Cand ai terminat apasa pe cheita si verifica. Succes!'
+          },
+          data: [
+            {
+              identifier: 'one',
+              model: '',
+              position: {
+                top: '19.6%',
+                left: '61.5%',
+                width: '7%',
+                height: '2.5%'
+              },
+              answerFalse: {
+                top: '10%',
+                left: '5%'
+              },
+              answerTrue: {
+                top: '10%',
+                left: '60%'
+              }
+            },
+            {
+              identifier: 'two',
+              model: '',
+              position: {
+                top: '23.2%',
+                left: '61.5%',
+                width: '7%',
+                height: '2.5%'
+              },
+              answerTrue: {
+                top: '10%',
+                left: '5%'
+              },
+              answerFalse: {
+                top: '10%',
+                left: '60%'
+              }
+            },
+            {
+              identifier: 'three',
+              model: '',
+              position: {
+                top: '26.9%',
+                left: '61.5%',
+                width: '7%',
+                height: '2.5%'
+              },
+              answerFalse: {
+                top: '10%',
+                left: '5%'
+              },
+              answerTrue: {
+                top: '10%',
+                left: '60%'
+              }
+            },
+            {
+              identifier: 'four',
+              model: '',
+              position: {
+                top: '30.5%',
+                left: '61.5%',
+                width: '7%',
+                height: '2.5%'
+              },
+              answerFalse: {
+                top: '10%',
+                left: '5%'
+              },
+              answerTrue: {
+                top: '10%',
+                left: '60%'
+              }
+            },
+            {
+              identifier: 'five',
+              model: '',
+              position: {
+                top: '34.2%',
+                left: '61.5%',
+                width: '7%',
+                height: '2.5%'
+              },
+              answerTrue: {
+                top: '10%',
+                left: '5%'
+              },
+              answerFalse: {
+                top: '10%',
+                left: '60%'
+              }
+            },
+            {
+              identifier: 'six',
+              model: '',
+              position: {
+                top: '37.8%',
+                left: '61.5%',
+                width: '7%',
+                height: '2.5%'
+              },
+              answerFalse: {
+                top: '10%',
+                left: '5%'
+              },
+              answerTrue: {
+                top: '10%',
+                left: '60%'
+              }
+            },
+            {
+              identifier: 'seven',
+              model: '',
+              position: {
+                top: '41.4%',
+                left: '61.5%',
+                width: '7%',
+                height: '2.5%'
+              },
+              answerFalse: {
+                top: '10%',
+                left: '5%'
+              },
+              answerTrue: {
+                top: '10%',
+                left: '60%'
+              }
+            },
+            {
+              identifier: 'eight',
+              model: '',
+              position: {
+                top: '45.1%',
+                left: '61.5%',
+                width: '7%',
+                height: '2.5%'
+              },
+              answerTrue: {
+                top: '10%',
+                left: '5%'
+              },
+              answerFalse: {
+                top: '10%',
+                left: '60%'
+              }
+            },
+            {
+              identifier: 'nine',
+              model: '',
+              position: {
+                top: '55%',
+                left: '61.4%',
+                width: '7%',
+                height: '2.5%'
+              },
+              answerFalse: {
+                top: '10%',
+                left: '5%'
+              },
+              answerTrue: {
+                top: '10%',
+                left: '60%'
+              }
+            },
+            {
+              identifier: 'ten',
+              model: '',
+              position: {
+                top: '58.6%',
+                left: '61.4%',
+                width: '7%',
+                height: '2.5%'
+              },
+              answerTrue: {
+                top: '10%',
+                left: '5%'
+              },
+              answerFalse: {
+                top: '10%',
+                left: '60%'
+              }
+            },
+            {
+              identifier: 'eleven',
+              model: '',
+              position: {
+                top: '62.3%',
+                left: '61.4%',
+                width: '7%',
+                height: '2.5%'
+              },
+              answerFalse: {
+                top: '10%',
+                left: '5%'
+              },
+              answerTrue: {
+                top: '10%',
+                left: '60%'
+              }
+            },
+            {
+              identifier: 'twelve',
+              model: '',
+              position: {
+                top: '65.9%',
+                left: '61.4%',
+                width: '7%',
+                height: '2.5%'
+              },
+              answerFalse: {
+                top: '10%',
+                left: '5%'
+              },
+              answerTrue: {
+                top: '10%',
+                left: '60%'
+              }
+            },
+            {
+              identifier: 'thirteen',
+              model: '',
+              position: {
+                top: '69.5%',
+                left: '61.4%',
+                width: '7%',
+                height: '2.5%'
+              },
+              answerFalse: {
+                top: '10%',
+                left: '5%'
+              },
+              answerTrue: {
+                top: '10%',
+                left: '60%'
+              }
+            },
+            {
+              identifier: 'fourteen',
+              model: '',
+              position: {
+                top: '73.2%',
+                left: '61.4%',
+                width: '7%',
+                height: '2.5%'
+              },
+              answerTrue: {
+                top: '10%',
+                left: '5%'
+              },
+              answerFalse: {
+                top: '10%',
+                left: '60%'
+              }
+            },
+            {
+              identifier: 'fifteen',
+              model: '',
+              position: {
+                top: '76.8%',
+                left: '61.4%',
+                width: '7%',
+                height: '2.5%'
+              },
+              answerFalse: {
+                top: '10%',
+                left: '5%'
+              },
+              answerTrue: {
+                top: '10%',
+                left: '60%'
+              }
+            },
+            {
+              identifier: 'sixteen',
+              model: '',
+              position: {
+                top: '80.4%',
+                left: '61.4%',
+                width: '7%',
+                height: '2.5%'
+              },
+              answerTrue: {
+                top: '10%',
+                left: '5%'
+              },
+              answerFalse: {
+                top: '10%',
+                left: '60%'
+              }
+            }
+          ]
+        }
+      ]
+    },
+    '45': {
+      exercise: [
+        {
+          type: 'checker',
+          title: 'Lies und kreuze Richtig oder Falsch an! Schreib den richtigen Satz!',
+          image: 'pg45ex3',
+          trigger: {
+            button: {
+              top: '12%'
+            },
+            zone: {
+              top: '12%',
+              bottom: '3%'
+            }
+          },
+          help: {
+            toggle: false,
+            text: 'Citeste si bifeaza corect (R) sau gresit(F). Cand ai terminat apasa pe cheita si verifica. Succes!'
+          },
+          data: [
+            {
+              identifier: 'one',
+              model: '',
+              position: {
+                top: '16.7%',
+                left: '58.4%',
+                width: '6.6%',
+                height: '2.1%'
+              },
+              answerFalse: {
+                top: '10%',
+                left: '5%'
+              },
+              answerTrue: {
+                top: '10%',
+                left: '61%'
+              }
+            },
+            {
+              identifier: 'two',
+              model: '',
+              position: {
+                top: '32.8%',
+                left: '76.1%',
+                width: '6.6%',
+                height: '2.1%'
+              },
+              answerFalse: {
+                top: '10%',
+                left: '5%'
+              },
+              answerTrue: {
+                top: '10%',
+                left: '61%'
+              }
+            },
+            {
+              identifier: 'three',
+              model: '',
+              position: {
+                top: '49.7%',
+                left: '58.3%',
+                width: '6.6%',
+                height: '2.1%'
+              },
+              answerTrue: {
+                top: '10%',
+                left: '5%'
+              },
+              answerFalse: {
+                top: '10%',
+                left: '61%'
+              }
+            },
+            {
+              identifier: 'four',
+              model: '',
+              position: {
+                top: '68%',
+                left: '72.2%',
+                width: '6.6%',
+                height: '2.1%'
+              },
+              answerFalse: {
+                top: '10%',
+                left: '5%'
+              },
+              answerTrue: {
+                top: '10%',
+                left: '61%'
+              }
+            },
+            {
+              identifier: 'five',
+              model: '',
+              position: {
+                top: '81.4%',
+                left: '66%',
+                width: '6.6%',
+                height: '2.1%'
+              },
+              answerFalse: {
+                top: '10%',
+                left: '5%'
+              },
+              answerTrue: {
+                top: '10%',
+                left: '61%'
+              }
+            }
+          ]
+        }
+      ]
+    },
     '46': {
       video: [
         {
@@ -1127,6 +2349,554 @@ module.exports = function() {
               bottom: '4%'
             }
           }
+        }
+      ]
+    },
+    '47': {
+      exercise: [
+        {
+          type: 'picker',
+          title: 'Was isst Bert? Such die Wörter!',
+          image: 'pg47ex6',
+          trigger: {
+            button: {
+              top: '11%'
+            },
+            zone: {
+              top: '11%',
+              bottom: '44%'
+            }
+          },
+          help: {
+            toggle: false,
+            text: 'Ce mananca Bert? Cauta cuvintele pe orizontala de la stanga la dreapta si invers si pe verticala de sus in jos si invers. Cand ai terminat'
+          },
+          data: [
+          ]
+        },
+        {
+          type: 'typer',
+          title: 'Ergänze die Erzählung!',
+          image: 'pg47ex7',
+          trigger: {
+            button: {
+              top: '57%'
+            },
+            zone: {
+              top: '57%',
+              bottom: '7%'
+            }
+          },
+          help: {
+            toggle: false,
+            text: 'Completeaza povestirea! Cand ai terminat apasa pe cheita si verifica. Succes!'
+          },
+          data: [
+            {
+              identifier: 'one',
+              position: {
+                top: '37.6%',
+                left: '41%',
+                width: '28%'
+              },
+              model: '',
+              solution: 'Bauernhof'
+            },
+            {
+              identifier: 'two',
+              position: {
+                top: '42.6%',
+                left: '19%',
+                width: '19%'
+              },
+              model: '',
+              solution: 'Henne'
+            },
+            {
+              identifier: 'three',
+              position: {
+                top: '42.6%',
+                left: '51%',
+                width: '16%'
+              },
+              model: '',
+              solution: 'Küken'
+            },
+            {
+              identifier: 'four',
+              position: {
+                top: '42.6%',
+                left: '79%',
+                width: '16%'
+              },
+              model: '',
+              solution: 'Schaf'
+            },
+            {
+              identifier: 'five',
+              position: {
+                top: '47.6%',
+                left: '27%',
+                width: '25%'
+              },
+              model: '',
+              solution: 'Ente'
+            },
+            {
+              identifier: 'six',
+              position: {
+                top: '47.6%',
+                left: '65%',
+                width: '17%'
+              },
+              model: '',
+              solution: 'Pferd'
+            },
+            {
+              identifier: 'seven',
+              position: {
+                top: '52.4%',
+                left: '14%',
+                width: '16%'
+              },
+              model: '',
+              solution: 'Kuh'
+            },
+            {
+              identifier: 'eight',
+              position: {
+                top: '52.4%',
+                left: '55%',
+                width: '22%'
+              },
+              model: '',
+              solution: 'Traktor'
+            },
+            {
+              identifier: 'nine',
+              position: {
+                top: '57.4%',
+                left: '21%',
+                width: '13%'
+              },
+              model: '',
+              solution: 'Nick'
+            },
+            {
+              identifier: 'ten',
+              position: {
+                top: '57.4%',
+                left: '39%',
+                width: '13%'
+              },
+              model: '',
+              solution: 'Halt'
+            },
+            {
+              identifier: 'eleven',
+              position: {
+                top: '62.4%',
+                left: '6%',
+                width: '15%'
+              },
+              model: '',
+              solution: 'Hilfe'
+            },
+            {
+              identifier: 'twelve',
+              position: {
+                top: '62.4%',
+                left: '23.5%',
+                width: '15%'
+              },
+              model: '',
+              solution: 'Hilfe'
+            }
+          ]
+        }
+      ]
+    },
+    '48': {
+      exercise: [
+        {
+          type: 'checker',
+          title: 'Lies die Sätze und kreuze RICHTIG oder FALSCH an!',
+          image: 'pg48ex9',
+          trigger: {
+            button: {
+              top: '65%'
+            },
+            zone: {
+              top: '65%',
+              bottom: '6%'
+            }
+          },
+          help: {
+            toggle: false,
+            text: 'Citeste si bifeaza corect (R) sau gresit(F). Cand ai terminat apasa pe cheita si verifica. Succes!'
+          },
+          data: [
+            {
+              identifier: 'one',
+              model: '',
+              position: {
+                top: '40.5%',
+                left: '54.9%',
+                width: '7.3%',
+                height: '2.5%'
+              },
+              answerFalse: {
+                top: '11%',
+                left: '4%'
+              },
+              answerTrue: {
+                top: '11%',
+                left: '61%'
+              }
+            },
+            {
+              identifier: 'two',
+              model: '',
+              position: {
+                top: '44.1%',
+                left: '54.9%',
+                width: '7.3%',
+                height: '2.5%'
+              },
+              answerFalse: {
+                top: '11%',
+                left: '4%'
+              },
+              answerTrue: {
+                top: '11%',
+                left: '61%'
+              }
+            },
+            {
+              identifier: 'three',
+              model: '',
+              position: {
+                top: '47.7%',
+                left: '54.9%',
+                width: '7.3%',
+                height: '2.5%'
+              },
+              answerFalse: {
+                top: '11%',
+                left: '4%'
+              },
+              answerTrue: {
+                top: '11%',
+                left: '61%'
+              }
+            },
+            {
+              identifier: 'four',
+              model: '',
+              position: {
+                top: '51.3%',
+                left: '54.9%',
+                width: '7.3%',
+                height: '2.5%'
+              },
+              answerFalse: {
+                top: '11%',
+                left: '4%'
+              },
+              answerTrue: {
+                top: '11%',
+                left: '61%'
+              }
+            },
+            {
+              identifier: 'five',
+              model: '',
+              position: {
+                top: '55%',
+                left: '54.9%',
+                width: '7.3%',
+                height: '2.5%'
+              },
+              answerFalse: {
+                top: '11%',
+                left: '4%'
+              },
+              answerTrue: {
+                top: '11%',
+                left: '61%'
+              }
+            },
+            {
+              identifier: 'six',
+              model: '',
+              position: {
+                top: '58.5%',
+                left: '54.9%',
+                width: '7.3%',
+                height: '2.5%'
+              },
+              answerFalse: {
+                top: '11%',
+                left: '4%'
+              },
+              answerTrue: {
+                top: '11%',
+                left: '61%'
+              }
+            }
+          ]
+        }
+      ]
+    },
+    '49': {
+      exercise: [
+        {
+          type: 'type',
+          title: 'Wie viele Tiere sind auf dem Bild?',
+          image: 'pg49ex10',
+          trigger: {
+            button: {
+              top: '9%'
+            },
+            zone: {
+              top: '9%',
+              bottom: '6%'
+            }
+          },
+          help: {
+            toggle: false,
+            text: 'Numara animalele scrise sub tablou si scrie numarul in casuta. Cand ai terminat apasa pe cheita si verifica. Succes!'
+          },
+          data: [
+            {
+              identifier: 'one',
+              position: {
+                top: '83%',
+                left: '15.6%',
+                width: '6.6%',
+                height: '5.5%'
+              },
+              model: '',
+              solution: '3'
+            },
+            {
+              identifier: 'two',
+              position: {
+                top: '83%',
+                left: '37.5%',
+                width: '6.6%',
+                height: '5.5%'
+              },
+              model: '',
+              solution: '10'
+            },
+            {
+              identifier: 'three',
+              position: {
+                top: '83%',
+                left: '59.5%',
+                width: '6.6%',
+                height: '5.5%'
+              },
+              model: '',
+              solution: '9'
+            },
+            {
+              identifier: 'four',
+              position: {
+                top: '83%',
+                left: '82.5%',
+                width: '6.6%',
+                height: '5.5%'
+              },
+              model: '',
+              solution: '5'
+            }
+          ]
+        }
+      ]
+    },
+    '50': {
+      exercise: [
+        {
+          type: 'typer',
+          title: 'Schreib die Wörter!',
+          image: 'pg50ex11',
+          trigger: {
+            button: {
+              top: '9%'
+            },
+            zone: {
+              top: '9%',
+              bottom: '5%'
+            }
+          },
+          help: {
+            toggle: false,
+            text: 'Alege si scrie cuvintele potrivite pentru fiecare caseta. Cand ai terminat apasa pe cheita si verifica. Succes!'
+          },
+          data: [
+            {
+              identifier: 'one',
+              position: {
+                top: '31%',
+                left: '22%',
+                width: '20%'
+              },
+              model: '',
+              solution: 'Augen'
+            },
+            {
+              identifier: 'two',
+              position: {
+                top: '33.7%',
+                left: '22%',
+                width: '20%'
+              },
+              model: '',
+              solution: 'Nase'
+            },
+            {
+              identifier: 'three',
+              position: {
+                top: '36.5%',
+                left: '22%',
+                width: '20%'
+              },
+              model: '',
+              solution: 'Hände'
+            },
+            {
+              identifier: 'four',
+              position: {
+                top: '39.3%',
+                left: '22%',
+                width: '20%'
+              },
+              model: '',
+              solution: 'Füße'
+            },
+            {
+              identifier: 'five',
+              position: {
+                top: '26.1%',
+                left: '58%',
+                width: '20%'
+              },
+              model: '',
+              solution: 'Jogurt'
+            },
+            {
+              identifier: 'six',
+              position: {
+                top: '28.9%',
+                left: '58%',
+                width: '20%'
+              },
+              model: '',
+              solution: 'Banane'
+            },
+            {
+              identifier: 'seven',
+              position: {
+                top: '31.7%',
+                left: '58%',
+                width: '20%'
+              },
+              model: '',
+              solution: 'Käse'
+            },
+            {
+              identifier: 'eight',
+              position: {
+                top: '34.5%',
+                left: '58%',
+                width: '20%'
+              },
+              model: '',
+              solution: 'Apfel'
+            },
+            {
+              identifier: 'nine',
+              position: {
+                top: '72%',
+                left: '22%',
+                width: '20%'
+              },
+              model: '',
+              solution: 'Henne'
+            },
+            {
+              identifier: 'ten',
+              position: {
+                top: '74.9%',
+                left: '22%',
+                width: '20%'
+              },
+              model: '',
+              solution: 'Pferd'
+            },
+            {
+              identifier: 'eleven',
+              position: {
+                top: '77.7%',
+                left: '22%',
+                width: '20%'
+              },
+              model: '',
+              solution: 'Kuh'
+            },
+            {
+              identifier: 'twelve',
+              position: {
+                top: '80.5%',
+                left: '22%',
+                width: '20%'
+              },
+              model: '',
+              solution: 'Schwein'
+            },
+            {
+              identifier: 'thirteen',
+              position: {
+                top: '70.5%',
+                left: '60%',
+                width: '20%'
+              },
+              model: '',
+              solution: 'tanzen'
+            },
+            {
+              identifier: 'fourteen',
+              position: {
+                top: '73.3%',
+                left: '60%',
+                width: '20%'
+              },
+              model: '',
+              solution: 'singen'
+            },
+            {
+              identifier: 'fifteen',
+              position: {
+                top: '76.1%',
+                left: '60%',
+                width: '20%'
+              },
+              model: '',
+              solution: 'fliegen'
+            },
+            {
+              identifier: 'sixteen',
+              position: {
+                top: '79%',
+                left: '60%',
+                width: '20%'
+              },
+              model: '',
+              solution: 'klatschen'
+            }
+          ]
         }
       ]
     }

@@ -1,4 +1,51 @@
 .typer {
+  &--08-0 {
+    width: 80%;
+    background-color: rgba(green, .3);
+
+    &[name="one"] {
+      transform: rotate(-9deg);
+    }
+
+    &[name="two"] {
+      transform: rotate(2.5deg);
+    }
+
+    &[name="three"] {
+      transform: rotate(4deg);
+    }
+
+    &[name="four"] {
+      transform: rotate(8deg);
+    }
+
+    &[name="five"] {
+      transform: rotate(8deg);
+    }
+
+    &[name="six"] {
+      transform: rotate(-9deg);
+    }
+
+    &[name="seven"] {
+      transform: rotate(-5deg);
+    }
+  }
+
+  &--15-0 {
+    width: 90%;
+  }
+
+  &--32-0 {
+    width: 80%;
+  }
+
+  &--34-0 {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+  }
+
   &--41-0 {
     font-size: 18px;
     width: 100%;
@@ -6,49 +53,49 @@
     border-radius: 50%;
   }
 
-  &--52-0 {
-    width: 75%;
-    font-size: 2rem;
-    letter-spacing: 15px;
+  &--47-1 {
+    width: 80%;
+  }
+
+  &--49-0 {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+  }
+
+  &--50-0 {
+    width: 80%;
+    font-size: larger;
+    font-weight: $font-weight--bold;
   }
 }
 
 .checker {
-  &--11-0 {
+  &--24-0 {
     & + .labelChecker__answer {
-      width: 12%;
-      height: 40%;
+      width: 20%;
+      height: 80%;
     }
   }
 
-  &--29-0 {
+  &--44-0 {
     & + .labelChecker__answer {
-      width: 30%;
-      height: 18%;
+      width: 40%;
+      height: 80%;
     }
+  }
 
-    @at-root .page29 label[for="twotrue"] {
-      background-image: url(../img/checker--false.png);
+  &--45-0 {
+    & + .labelChecker__answer {
+      width: 40%;
+      height: 80%;
     }
+  }
 
-    @at-root .page29 label[for="twofalse"] {
-      background-image: url(../img/checker--true.png);
-    }
-
-    @at-root .page29 label[for="threetrue"] {
-      background-image: url(../img/checker--indeterminate.png);
-    }
-
-    @at-root .page29 label[for="threeindeterminate"] {
-      background-image: url(../img/checker--true.png);
-    }
-
-    @at-root .page29 label[for="fivetrue"] {
-      background-image: url(../img/checker--false.png);
-    }
-
-    @at-root .page29 label[for="fivefalse"] {
-      background-image: url(../img/checker--true.png);
+  &--48-0 {
+    & + .labelChecker__answer {
+      width: 40%;
+      height: 80%;
     }
   }
 }
