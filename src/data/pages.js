@@ -2666,6 +2666,136 @@ module.exports = function() {
             text: 'Ce mananca Bert? Cauta cuvintele pe orizontala de la stanga la dreapta si invers si pe verticala de sus in jos si invers. Cand ai terminat'
           },
           data: [
+            {
+              identifier: 'one',
+              model: '',
+              position: {
+                top: '31.7%',
+                left: '31%',
+                width: '30.8%',
+                height: '4.2%'
+              },
+              answer: {
+                left: '0'
+              }
+            },
+            {
+              identifier: 'two',
+              model: '',
+              position: {
+                top: '39.7%',
+                left: '25.8%',
+                width: '25.8%',
+                height: '4.2%'
+              },
+              answer: {
+                left: '0'
+              }
+            },
+            {
+              identifier: 'three',
+              model: '',
+              position: {
+                top: '47.9%',
+                left: '30.8%',
+                width: '30.8%',
+                height: '4.2%'
+              },
+              answer: {
+                left: '0'
+              }
+            },
+            {
+              identifier: 'four',
+              model: '',
+              position: {
+                top: '56%',
+                left: '10.5%',
+                width: '20.5%',
+                height: '4.2%'
+              },
+              answer: {
+                left: '0'
+              }
+            },
+            {
+              identifier: 'five',
+              model: '',
+              position: {
+                top: '56%',
+                left: '36.1%',
+                width: '25.5%',
+                height: '4.2%'
+              },
+              answer: {
+                left: '0'
+              }
+            },
+            {
+              identifier: 'six',
+              model: '',
+              position: {
+                top: '64%',
+                left: '25.8%',
+                width: '40.9%',
+                height: '4.2%'
+              },
+              answer: {
+                left: '0'
+              }
+            },
+            {
+              identifier: 'seven',
+              model: '',
+              position: {
+                top: '35.8%',
+                left: '5.3%',
+                width: '5.1%',
+                height: '20.2%'
+              },
+              answer: {
+                left: '0'
+              }
+            },
+            {
+              identifier: 'eight',
+              model: '',
+              position: {
+                top: '31.8%',
+                left: '15.5%',
+                width: '5.1%',
+                height: '32.2%'
+              },
+              answer: {
+                left: '0'
+              }
+            },
+            {
+              identifier: 'nine',
+              model: '',
+              position: {
+                top: '56%',
+                left: '25.8%',
+                width: '5.1%',
+                height: '12.2%'
+              },
+              answer: {
+                left: '0'
+              }
+            },
+            {
+              identifier: 'ten',
+              model: '',
+              position: {
+                top: '31.9%',
+                left: '56.5%',
+                width: '5.1%',
+                height: '20.2%'
+              },
+              answer: {
+                left: '0'
+              }
+            }
           ]
         },
         {
@@ -2857,11 +2987,11 @@ module.exports = function() {
                 width: '7.3%',
                 height: '2.5%'
               },
-              answerFalse: {
+              answerTrue: {
                 top: '11%',
                 left: '4%'
               },
-              answerTrue: {
+              answerFalse: {
                 top: '11%',
                 left: '61%'
               }
@@ -2875,11 +3005,11 @@ module.exports = function() {
                 width: '7.3%',
                 height: '2.5%'
               },
-              answerFalse: {
+              answerTrue: {
                 top: '11%',
                 left: '4%'
               },
-              answerTrue: {
+              answerFalse: {
                 top: '11%',
                 left: '61%'
               }
@@ -2911,11 +3041,11 @@ module.exports = function() {
                 width: '7.3%',
                 height: '2.5%'
               },
-              answerFalse: {
+              answerTrue: {
                 top: '11%',
                 left: '4%'
               },
-              answerTrue: {
+              answerFalse: {
                 top: '11%',
                 left: '61%'
               }
@@ -2929,11 +3059,11 @@ module.exports = function() {
                 width: '7.3%',
                 height: '2.5%'
               },
-              answerFalse: {
+              answerTrue: {
                 top: '11%',
                 left: '4%'
               },
-              answerTrue: {
+              answerFalse: {
                 top: '11%',
                 left: '61%'
               }
