@@ -114,3 +114,27 @@
     }
   }
 }
+
+.page11 #nas-img,
+.page11 #ochi-img {
+  opacity: 0.6;
+}
+.page11 .the-target-endpoint {
+  width: 19px !important;
+  height: 18px !important;
+}
+.page11 .the-target-endpoint > svg {
+  width: 14px;
+  height: 14px;
+}
+.page11 .the-target-endpoint > svg {
+  top: auto !important;
+  left: auto !important;
+  right: 0;
+  bottom: 0;
+}
+.page11 .the-target-endpoint circle {
+  cx: 7;
+  cy: 7;
+  r: 7;
+}

@@ -224,6 +224,300 @@ module.exports = function() {
         }
       ]
     },
+    '11': {
+     exercise: [
+       {
+         type: 'linker',
+         image: '11-exercise-bg',
+         title: 'VERBINDE!',
+         trigger: {
+           button: {
+             top: '10%'
+           },
+           zone: {
+             top: '8%',
+             bottom: '4%'
+           }
+         },
+         help: {
+           toggle: false,
+           text: 'Uneste cu o linie partile corpului cu denumirea potrivita. Cand ai terminat apasa pe cheita si verifica. Succes!'
+         },
+         data: [
+           {
+             identifier: 'nase',
+             style: {
+               top: '10%',
+               left: '8%',
+               width: '13%',
+               height: 'auto'
+             },
+             image: {
+               src: '11-nase.png'
+             },
+             solutionBorder: true,
+             sourceAnchors: ["BottomCenter"],
+             targetAnchors: []
+           },
+           {
+             identifier: 'augen',
+             style: {
+               top: '10%',
+               left: '26%',
+               width: '13%',
+               height: 'auto'
+             },
+             image: {
+               src: '11-augen.png'
+             },
+             solutionBorder: true,
+             sourceAnchors: ["BottomCenter"],
+             targetAnchors: []
+           },
+           {
+             identifier: 'haare',
+             style: {
+               top: '10%',
+               left: '44%',
+               width: '13%',
+               height: 'auto'
+             },
+             image: {
+               src: '11-haare.png'
+             },
+             solutionBorder: true,
+             sourceAnchors: ["BottomCenter"],
+             targetAnchors: []
+           },
+           {
+             identifier: 'mund',
+             style: {
+               top: '10%',
+               left: '62%',
+               width: '13%',
+               height: 'auto'
+             },
+             image: {
+               src: '11-mund.png'
+             },
+             solutionBorder: true,
+             sourceAnchors: ["BottomCenter"],
+             targetAnchors: []
+           },
+           {
+             identifier: 'ohren',
+             style: {
+               top: '10%',
+               left: '80%',
+               width: '13%',
+               height: 'auto'
+             },
+             image: {
+               src: '11-ohren.png'
+             },
+             solutionBorder: true,
+             sourceAnchors: ["BottomCenter"],
+             targetAnchors: []
+           },
+           {
+             identifier: 'fube',
+             style: {
+               top: '88%',
+               left: '8%',
+               width: '13%',
+               height: 'auto'
+             },
+             image: {
+               src: '11-fube.png'
+             },
+             solutionBorder: true,
+             sourceAnchors: ["TopCenter"],
+             targetAnchors: []
+           },
+           {
+             identifier: 'arme',
+             style: {
+               top: '88%',
+               left: '31%',
+               width: '13%',
+               height: 'auto'
+             },
+             image: {
+               src: '11-arme.png'
+             },
+             solutionBorder: true,
+             sourceAnchors: ["TopCenter"],
+             targetAnchors: []
+           },
+           {
+             identifier: 'beine',
+             style: {
+               top: '88%',
+               left: '53%',
+               width: '13%',
+               height: 'auto'
+             },
+             image: {
+               src: '11-beine.png'
+             },
+             solutionBorder: true,
+             sourceAnchors: ["TopCenter"],
+             targetAnchors: []
+           },
+           {
+             identifier: 'hande',
+             style: {
+               top: '88%',
+               left: '75%',
+               width: '13%',
+               height: 'auto'
+             },
+             image: {
+               src: '11-hande.png'
+             },
+             solutionBorder: true,
+             sourceAnchors: ["TopCenter"],
+             targetAnchors: []
+           },
+           {
+             identifier: 'nas-img',
+             style: {
+               top: '30.7%',
+               left: '46.2%',
+               width: '3.2%',
+               height: '3%'
+             },
+             image: {
+               src: '11-transparent-bg.png'
+             },
+             solution: ["nase"],
+             sourceAnchors: [],
+             targetAnchors: ["LeftMiddle"]
+           },
+           {
+             identifier: 'ochi-img',
+             style: {
+               top: '28%',
+               left: '47.6%',
+               width: '2.5%',
+               height: 'auto'
+             },
+             image: {
+               src: '11-transparent-bg.png'
+             },
+             solution: ["augen"],
+             sourceAnchors: [],
+             targetAnchors: ["LeftMiddle"]
+           },
+           {
+             identifier: 'par-img',
+             style: {
+               top: '21.4%',
+               left: '44.6%',
+               width: '5.7%',
+               height: '3%'
+             },
+             image: {
+               src: '11-transparent-bg.png'
+             },
+             solution: ["haare"],
+             sourceAnchors: [],
+             targetAnchors: ["TopCenter"]
+           },
+           {
+             identifier: 'gura-img',
+             style: {
+               top: '33.9%',
+               left: '46.7%',
+               width: '3%',
+               height: '2.5%'
+             },
+             image: {
+               src: '11-transparent-bg.png'
+             },
+             solution: ["mund"],
+             sourceAnchors: [],
+             targetAnchors: ["RightMiddle"]
+           },
+           {
+             identifier: 'ureche-img',
+             style: {
+               top: '21.9%',
+               left: '50.7%',
+               width: '5%',
+               height: '5.3%'
+             },
+             image: {
+               src: '11-transparent-bg.png'
+             },
+             solution: ["ohren"],
+             sourceAnchors: [],
+             targetAnchors: ["RightMiddle"]
+           },
+           {
+             identifier: 'talpa-img',
+             style: {
+               top: '76.9%',
+               left: '28.7%',
+               width: '11%',
+               height: '7.3%'
+             },
+             image: {
+               src: '11-transparent-bg.png'
+             },
+             solution: ["fube"],
+             sourceAnchors: [],
+             targetAnchors: ["LeftMiddle"]
+           },
+           {
+             identifier: 'brat-img',
+             style: {
+               top: '37.9%',
+               left: '28.7%',
+               width: '13%',
+               height: '7.3%'
+             },
+             image: {
+               src: '11-transparent-bg.png'
+             },
+             solution: ["arme"],
+             sourceAnchors: [],
+             targetAnchors: ["BottomCenter"]
+           },
+           {
+             identifier: 'picior-img',
+             style: {
+               top: '56.9%',
+               left: '55.7%',
+               width: '18%',
+               height: '18.3%'
+             },
+             image: {
+               src: '11-transparent-bg.png'
+             },
+             solution: ["beine"],
+             sourceAnchors: [],
+             targetAnchors: ["BottomCenter"]
+           },
+           {
+             identifier: 'mana-img',
+             style: {
+               top: '27.9%',
+               left: '66.7%',
+               width: '11%',
+               height: '9.5%'
+             },
+             image: {
+               src: '11-transparent-bg.png'
+             },
+             solution: ["hande"],
+             sourceAnchors: [],
+             targetAnchors: ["BottomCenter"]
+           }
+         ]
+       }
+     ]
+   },
     '12': {
       static: [
         {
