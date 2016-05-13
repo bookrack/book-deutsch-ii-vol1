@@ -326,7 +326,7 @@ module.exports = function() {
          },
          help: {
            toggle: false,
-           text: 'Uneste cu o linie partile corpului cu denumirea potrivita. Cand ai terminat apasa pe cheita si verifica. Succes!'
+           text: 'Uneste cuvintele cu partile corpului corespunzatoare. Cand ai terminat apasa pe cheita si verifica. Succes!'
          },
          data: [
            {
@@ -750,7 +750,7 @@ module.exports = function() {
             {
               identifier: 'one',
               position: {
-                top: '43.8%',
+                top: '80.2%',
                 left: '44%',
                 width: '47%'
               },
@@ -760,7 +760,7 @@ module.exports = function() {
             {
               identifier: 'two',
               position: {
-                top: '47.3%',
+                top: '83.7%',
                 left: '44%',
                 width: '47%'
               },
@@ -770,7 +770,7 @@ module.exports = function() {
             {
               identifier: 'three',
               position: {
-                top: '50.6%',
+                top: '86.9%',
                 left: '44%',
                 width: '47%'
               },
@@ -780,7 +780,7 @@ module.exports = function() {
             {
               identifier: 'four',
               position: {
-                top: '54%',
+                top: '90.4%',
                 left: '47%',
                 width: '44%'
               },
@@ -1032,17 +1032,17 @@ module.exports = function() {
               model: '',
               position: {
                 top: '49.9%',
-                left: '27.7%',
-                width: '7%',
+                left: '19.7%',
+                width: '9%',
                 height: '1.3%'
               },
               answerFalse: {
-                top: '13%',
-                left: '2%'
+                top: '5%',
+                left: '0%'
               },
               answerTrue: {
-                top: '13%',
-                left: '78%'
+                top: '5%',
+                left: '80%'
               }
             },
             {
@@ -1050,17 +1050,17 @@ module.exports = function() {
               model: '',
               position: {
                 top: '49.9%',
-                left: '39.7%',
-                width: '7%',
+                left: '36%',
+                width: '9%',
                 height: '1.3%'
               },
               answerTrue: {
-                top: '13%',
-                left: '2%'
+                top: '5%',
+                left: '3%'
               },
               answerFalse: {
-                top: '13%',
-                left: '78%'
+                top: '5%',
+                left: '80%'
               }
             },
             {
@@ -1068,125 +1068,125 @@ module.exports = function() {
               model: '',
               position: {
                 top: '49.9%',
-                left: '51.2%',
-                width: '7%',
+                left: '52.2%',
+                width: '9%',
                 height: '1.3%'
               },
               answerTrue: {
-                top: '13%',
-                left: '2%'
+                top: '5%',
+                left: '0%'
               },
               answerFalse: {
-                top: '13%',
-                left: '78%'
+                top: '5%',
+                left: '80%'
               }
             },
             {
               identifier: 'four',
               model: '',
               position: {
-                top: '57.7%',
-                left: '27.7%',
-                width: '7%',
+                top: '60.7%',
+                left: '19.7%',
+                width: '9%',
                 height: '1.3%'
               },
               answerTrue: {
-                top: '13%',
-                left: '2%'
+                top: '5%',
+                left: '0%'
               },
               answerFalse: {
-                top: '13%',
-                left: '78%'
+                top: '5%',
+                left: '80%'
               }
             },
             {
               identifier: 'five',
               model: '',
               position: {
-                top: '57.7%',
-                left: '39.7%',
-                width: '7%',
+                top: '60.7%',
+                left: '36%',
+                width: '9%',
                 height: '1.3%'
               },
               answerFalse: {
-                top: '13%',
-                left: '2%'
+                top: '5%',
+                left: '3%'
               },
               answerTrue: {
-                top: '13%',
-                left: '78%'
+                top: '5%',
+                left: '82%'
               }
             },
             {
               identifier: 'six',
               model: '',
               position: {
-                top: '57.7%',
-                left: '51.2%',
-                width: '7%',
+                top: '60.7%',
+                left: '52.2%',
+                width: '9%',
                 height: '1.3%'
               },
               answerTrue: {
-                top: '13%',
-                left: '2%'
+                top: '5%',
+                left: '0%'
               },
               answerFalse: {
-                top: '13%',
-                left: '78%'
+                top: '5%',
+                left: '80%'
               }
             },
             {
               identifier: 'seven',
               model: '',
               position: {
-                top: '65.7%',
-                left: '27.7%',
-                width: '7%',
+                top: '71.7%',
+                left: '19.7%',
+                width: '9%',
                 height: '1.3%'
               },
               answerTrue: {
-                top: '13%',
-                left: '2%'
+                top: '5%',
+                left: '0%'
               },
               answerFalse: {
-                top: '13%',
-                left: '78%'
+                top: '5%',
+                left: '80%'
               }
             },
             {
               identifier: 'eight',
               model: '',
               position: {
-                top: '65.7%',
-                left: '39.7%',
-                width: '7%',
+                top: '71.7%',
+                left: '36%',
+                width: '9%',
                 height: '1.3%'
               },
               answerFalse: {
-                top: '13%',
-                left: '2%'
+                top: '5%',
+                left: '3%'
               },
               answerTrue: {
-                top: '13%',
-                left: '78%'
+                top: '5%',
+                left: '82%'
               }
             },
             {
               identifier: 'nine',
               model: '',
               position: {
-                top: '65.7%',
-                left: '51.2%',
-                width: '7%',
+                top: '71.7%',
+                left: '52.2%',
+                width: '9%',
                 height: '1.3%'
               },
               answerFalse: {
-                top: '13%',
-                left: '2%'
+                top: '5%',
+                left: '0%'
               },
               answerTrue: {
-                top: '13%',
-                left: '78%'
+                top: '5%',
+                left: '81%'
               }
             }
           ]
@@ -1442,7 +1442,7 @@ module.exports = function() {
         {
           image: 'pg32ex6',
           audio: {
-            source: 'fundal',
+            source: 'pg32ex6',
             state: 'stopped'
           },
           trigger: {
@@ -1488,7 +1488,7 @@ module.exports = function() {
           },
           help: {
             toggle: false,
-            text: 'Numara si scrie numarul. Cand ai terminat apasa pe cheita si verifica. Succes!'
+            text: 'Numara picioarele animalelor si scrie numarul. Cand ai terminat apasa pe cheita si verifica. Succes!'
           },
           data: [
             {
@@ -1776,7 +1776,7 @@ module.exports = function() {
                 height: '3%'
               },
               model: '',
-              solution: '14'
+              solution: '4'
             },
             {
               identifier: 'sixteen',
@@ -2902,7 +2902,7 @@ module.exports = function() {
           },
           help: {
             toggle: false,
-            text: 'Ce mananca Bert? Cauta cuvintele pe orizontala de la stanga la dreapta si invers si pe verticala de sus in jos si invers. Cand ai terminat'
+            text: 'Ce mananca Bert? Cauta cuvintele pe orizontala de la stanga la dreapta si invers si pe verticala de sus in jos si invers. Cand ai terminat apasa pe cheita si verifica. Succes!'
           },
           data: [
             {
@@ -3203,108 +3203,108 @@ module.exports = function() {
               identifier: 'one',
               model: '',
               position: {
-                top: '40.5%',
+                top: '72.9%',
                 left: '54.9%',
                 width: '7.3%',
                 height: '2.5%'
               },
               answerFalse: {
                 top: '11%',
-                left: '4%'
+                left: '3%'
               },
               answerTrue: {
-                top: '11%',
-                left: '61%'
+                top: '9%',
+                left: '58%'
               }
             },
             {
               identifier: 'two',
               model: '',
               position: {
-                top: '44.1%',
+                top: '76.5%',
                 left: '54.9%',
                 width: '7.3%',
                 height: '2.5%'
               },
               answerTrue: {
                 top: '11%',
-                left: '4%'
+                left: '3%'
               },
               answerFalse: {
                 top: '11%',
-                left: '61%'
+                left: '58%'
               }
             },
             {
               identifier: 'three',
               model: '',
               position: {
-                top: '47.7%',
+                top: '80%',
                 left: '54.9%',
                 width: '7.3%',
                 height: '2.5%'
               },
               answerTrue: {
-                top: '11%',
-                left: '4%'
+                top: '14%',
+                left: '2%'
               },
               answerFalse: {
                 top: '11%',
-                left: '61%'
+                left: '58%'
               }
             },
             {
               identifier: 'four',
               model: '',
               position: {
-                top: '51.3%',
+                top: '83.7%',
                 left: '54.9%',
                 width: '7.3%',
                 height: '2.5%'
               },
               answerFalse: {
                 top: '11%',
-                left: '4%'
+                left: '2%'
               },
               answerTrue: {
                 top: '11%',
-                left: '61%'
+                left: '58%'
               }
             },
             {
               identifier: 'five',
               model: '',
               position: {
-                top: '55%',
+                top: '87.3%',
                 left: '54.9%',
                 width: '7.3%',
                 height: '2.5%'
               },
               answerTrue: {
                 top: '11%',
-                left: '4%'
+                left: '2%'
               },
               answerFalse: {
                 top: '11%',
-                left: '61%'
+                left: '58%'
               }
             },
             {
               identifier: 'six',
               model: '',
               position: {
-                top: '58.5%',
+                top: '90.8%',
                 left: '54.9%',
                 width: '7.3%',
                 height: '2.5%'
               },
               answerTrue: {
                 top: '11%',
-                left: '4%'
+                left: '2%'
               },
               answerFalse: {
                 top: '11%',
-                left: '61%'
+                left: '58%'
               }
             }
           ]
