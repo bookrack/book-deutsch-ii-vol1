@@ -1488,7 +1488,7 @@ module.exports = function() {
           },
           help: {
             toggle: false,
-            text: 'Numara picioarele animalelor si scrie numarul. Cand ai terminat apasa pe cheita si verifica. Succes!'
+            text: 'Numara picioarele, cozile, ochii si aripile din fiecare imagine si scrie numarul. Cand ai terminat apasa pe cheita si verifica. Succes!'
           },
           data: [
             {
