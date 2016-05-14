@@ -1494,8 +1494,8 @@ module.exports = function() {
             {
               identifier: 'one',
               position: {
-                top: '38%',
-                left: '28%',
+                top: '34.1%',
+                left: '23%',
                 width: '17%'
               },
               model: '',
@@ -1504,8 +1504,8 @@ module.exports = function() {
             {
               identifier: 'two',
               position: {
-                top: '40.6%',
-                left: '33%',
+                top: '37.2%',
+                left: '29%',
                 width: '17%'
               },
               model: '',
@@ -1514,8 +1514,8 @@ module.exports = function() {
             {
               identifier: 'three',
               position: {
-                top: '43%',
-                left: '29%',
+                top: '40.4%',
+                left: '25%',
                 width: '17%'
               },
               model: '',
@@ -1524,8 +1524,8 @@ module.exports = function() {
             {
               identifier: 'four',
               position: {
-                top: '45.7%',
-                left: '28%',
+                top: '43.5%',
+                left: '24%',
                 width: '17%'
               },
               model: '',
@@ -1534,8 +1534,8 @@ module.exports = function() {
             {
               identifier: 'five',
               position: {
-                top: '51.8%',
-                left: '62%',
+                top: '62.8%',
+                left: '69%',
                 width: '17%'
               },
               model: '',
@@ -1544,8 +1544,8 @@ module.exports = function() {
             {
               identifier: 'six',
               position: {
-                top: '54.3%',
-                left: '67%',
+                top: '65.9%',
+                left: '75%',
                 width: '17%'
               },
               model: '',
@@ -1554,8 +1554,8 @@ module.exports = function() {
             {
               identifier: 'seven',
               position: {
-                top: '56.8%',
-                left: '63%',
+                top: '69%',
+                left: '71%',
                 width: '17%'
               },
               model: '',
@@ -1564,8 +1564,8 @@ module.exports = function() {
             {
               identifier: 'eight',
               position: {
-                top: '59.4%',
-                left: '62.5%',
+                top: '72%',
+                left: '69.5%',
                 width: '17%'
               },
               model: '',
@@ -1610,7 +1610,7 @@ module.exports = function() {
           },
           help: {
             toggle: false,
-            text: 'Scrie numerele si citeste-le. Cand ai terminat apasa pe cheita si verifica. Succes!'
+            text: 'Scrie numerele si apoi calculeaza-le. Cand ai terminat apasa pe cheita si verifica. Succes!'
           },
           data: [
             {
@@ -2311,8 +2311,8 @@ module.exports = function() {
               identifier: 'one',
               model: '',
               position: {
-                top: '19.6%',
-                left: '61.5%',
+                top: '22.5%',
+                left: '62.6%',
                 width: '7%',
                 height: '2.5%'
               },
@@ -2329,8 +2329,8 @@ module.exports = function() {
               identifier: 'two',
               model: '',
               position: {
-                top: '23.2%',
-                left: '61.5%',
+                top: '26.2%',
+                left: '62.6%',
                 width: '7%',
                 height: '2.5%'
               },
@@ -2347,8 +2347,8 @@ module.exports = function() {
               identifier: 'three',
               model: '',
               position: {
-                top: '26.9%',
-                left: '61.5%',
+                top: '29.8%',
+                left: '62.6%',
                 width: '7%',
                 height: '2.5%'
               },
@@ -2365,8 +2365,8 @@ module.exports = function() {
               identifier: 'four',
               model: '',
               position: {
-                top: '30.5%',
-                left: '61.5%',
+                top: '33.5%',
+                left: '62.6%',
                 width: '7%',
                 height: '2.5%'
               },
@@ -2383,8 +2383,8 @@ module.exports = function() {
               identifier: 'five',
               model: '',
               position: {
-                top: '34.2%',
-                left: '61.5%',
+                top: '37%',
+                left: '62.6%',
                 width: '7%',
                 height: '2.5%'
               },
@@ -2401,8 +2401,8 @@ module.exports = function() {
               identifier: 'six',
               model: '',
               position: {
-                top: '37.8%',
-                left: '61.5%',
+                top: '40.3%',
+                left: '62.6%',
                 width: '7%',
                 height: '2.5%'
               },
@@ -2419,8 +2419,8 @@ module.exports = function() {
               identifier: 'seven',
               model: '',
               position: {
-                top: '41.4%',
-                left: '61.5%',
+                top: '43.9%',
+                left: '62.6%',
                 width: '7%',
                 height: '2.5%'
               },
@@ -2437,8 +2437,8 @@ module.exports = function() {
               identifier: 'eight',
               model: '',
               position: {
-                top: '45.1%',
-                left: '61.5%',
+                top: '47.5%',
+                left: '62.6%',
                 width: '7%',
                 height: '2.5%'
               },
@@ -2455,8 +2455,8 @@ module.exports = function() {
               identifier: 'nine',
               model: '',
               position: {
-                top: '55%',
-                left: '61.4%',
+                top: '57.9%',
+                left: '62.4%',
                 width: '7%',
                 height: '2.5%'
               },
@@ -2473,8 +2473,8 @@ module.exports = function() {
               identifier: 'ten',
               model: '',
               position: {
-                top: '58.6%',
-                left: '61.4%',
+                top: '61.5%',
+                left: '62.4%',
                 width: '7%',
                 height: '2.5%'
               },
@@ -2491,8 +2491,8 @@ module.exports = function() {
               identifier: 'eleven',
               model: '',
               position: {
-                top: '62.3%',
-                left: '61.4%',
+                top: '65.1%',
+                left: '62.4%',
                 width: '7%',
                 height: '2.5%'
               },
@@ -2509,8 +2509,8 @@ module.exports = function() {
               identifier: 'twelve',
               model: '',
               position: {
-                top: '65.9%',
-                left: '61.4%',
+                top: '68.3%',
+                left: '62.4%',
                 width: '7%',
                 height: '2.5%'
               },
@@ -2527,8 +2527,8 @@ module.exports = function() {
               identifier: 'thirteen',
               model: '',
               position: {
-                top: '69.5%',
-                left: '61.4%',
+                top: '72%',
+                left: '62.4%',
                 width: '7%',
                 height: '2.5%'
               },
@@ -2545,8 +2545,8 @@ module.exports = function() {
               identifier: 'fourteen',
               model: '',
               position: {
-                top: '73.2%',
-                left: '61.4%',
+                top: '75.6%',
+                left: '62.4%',
                 width: '7%',
                 height: '2.5%'
               },
@@ -2563,8 +2563,8 @@ module.exports = function() {
               identifier: 'fifteen',
               model: '',
               position: {
-                top: '76.8%',
-                left: '61.4%',
+                top: '79.3%',
+                left: '62.4%',
                 width: '7%',
                 height: '2.5%'
               },
@@ -2581,8 +2581,8 @@ module.exports = function() {
               identifier: 'sixteen',
               model: '',
               position: {
-                top: '80.4%',
-                left: '61.4%',
+                top: '82.5%',
+                left: '62.4%',
                 width: '7%',
                 height: '2.5%'
               },
