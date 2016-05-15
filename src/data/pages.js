@@ -1610,7 +1610,7 @@ module.exports = function() {
           },
           help: {
             toggle: false,
-            text: 'Scrie numerele si apoi calculeaza-le. Cand ai terminat apasa pe cheita si verifica. Succes!'
+            text: 'Scrie numerele si apoi calculeaza. Cand ai terminat apasa pe cheita si verifica. Succes!'
           },
           data: [
             {
